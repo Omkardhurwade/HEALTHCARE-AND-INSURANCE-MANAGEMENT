@@ -1,0 +1,106 @@
+body, h1, h2, h3, p, ul, li, form, input, button, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #000000;
+    color: #0e0e0e;
+    padding:  0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.979),rgba(24, 24, 54, 0.979), rgba(38, 65, 240, 0.8)), url('hl.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+
+#hero h1 {
+    font-size: 55px;
+    margin-top: 150px;
+    margin-bottom: 10px
+}
+#hero h2 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#hero h3 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#hero p{
+    font-size: 25px;
+
+    margin-bottom: 20px;
+}
+#hero p1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #18ef31; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}                                                   
